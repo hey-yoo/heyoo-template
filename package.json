@@ -1,7 +1,21 @@
 {
-  "name": "heyoo-template",
+  "name": "@heyoo/packs-ts-template",
   "version": "1.0.0",
-  "description": "heyoo template set",
+  "description": "heyoo's packs typescript template",
+  "type": "module",
+  "exports": {
+    "./foo": "./bin/foo.js",
+    "./bar": "./bin/bar.js"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hey-yoo/heyoo-template.git"
@@ -11,5 +25,17 @@
   "bugs": {
     "url": "https://github.com/hey-yoo/heyoo-template/issues"
   },
-  "homepage": "https://github.com/hey-yoo/heyoo-template#readme"
+  "homepage": "https://github.com/hey-yoo/heyoo-template/tree/packs-ts#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-flowtype": "^5.9.2",
+    "eslint-plugin-import": "^2.24.2",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
+  }
 }
