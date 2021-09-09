@@ -1,0 +1,15 @@
+{
+  "name": "heyoo-template",
+  "version": "1.0.0",
+  "description": "heyoo template set",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hey-yoo/heyoo-template.git"
+  },
+  "author": "Haolin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hey-yoo/heyoo-template/issues"
+  },
+  "homepage": "https://github.com/hey-yoo/heyoo-template#readme"
+}
