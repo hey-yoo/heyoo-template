@@ -1,7 +1,19 @@
 {
-  "name": "heyoo-template",
+  "name": "@heyoo/packs-js-template",
   "version": "1.0.0",
-  "description": "heyoo template set",
+  "description": "heyoo's packs javascript template",
+  "type": "module",
+  "exports": {
+    "./foo": "./src/foo.js",
+    "./bar": "./src/bar.js"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hey-yoo/heyoo-template.git"
@@ -11,5 +23,13 @@
   "bugs": {
     "url": "https://github.com/hey-yoo/heyoo-template/issues"
   },
-  "homepage": "https://github.com/hey-yoo/heyoo-template#readme"
+  "homepage": "https://github.com/hey-yoo/heyoo-template/tree/packs-js-template#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-flowtype": "^5.9.2",
+    "eslint-plugin-import": "^2.24.2",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.0"
+  }
 }
