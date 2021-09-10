@@ -1,6 +1,6 @@
 # heyoo-template
 
-the [heyoo](https://github.com/hey-yoo/heyoo#readme) Command line tool's template set, includes of :
+The [heyoo](https://github.com/hey-yoo/heyoo#readme) command line tool's template set, includes of :
 
 * [heyoo plugins typescript template](https://github.com/hey-yoo/heyoo-template/tree/plugins-ts-template#readme)
 * [heyoo plugins javascript template](https://github.com/hey-yoo/heyoo-template/tree/plugins-js-template#readme)
