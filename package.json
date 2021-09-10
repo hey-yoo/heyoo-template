@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/hey-yoo/heyoo-template/issues"
   },
-  "homepage": "https://github.com/hey-yoo/heyoo-template/tree/packs-ts#readme",
+  "homepage": "https://github.com/hey-yoo/heyoo-template/tree/packs-ts-template#readme",
   "devDependencies": {
     "@types/node": "^16.9.0",
     "@typescript-eslint/eslint-plugin": "^4.31.0",

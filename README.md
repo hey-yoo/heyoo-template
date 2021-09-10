@@ -25,7 +25,7 @@ npm i @heyoo/packs-ts-template
 yarn add @heyoo/packs-ts-template
 ```
 
-exec the exports script in @heyoo/packs-ts-template:
+exec the exports script:
 
 ```shell
 hey run foo
@@ -65,7 +65,7 @@ packageManager can be one of `pnpm`, `npm`, `yarn`.
 ```json5
 {
   "exports": {
-    // the key start with "./", the value start with "./" and end with ".js"
+    // you can know more on [Package entry points](https://nodejs.org/api/packages.html#packages_package_entry_points)
     "./foo": "./bin/foo.js",
     "./bar": "./bin/bar.js"
   }
