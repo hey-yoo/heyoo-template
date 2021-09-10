@@ -1,7 +1,18 @@
 {
-  "name": "heyoo-template",
+  "name": "@heyoo/plugins-ts-template",
   "version": "1.0.0",
-  "description": "heyoo template set",
+  "description": "heyoo's plugins typescript template",
+  "type": "module",
+  "exports": "./bin/index.js",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "scripts": {
+    "watch": "npx rollup -c --watch",
+    "build": "npx rollup -c",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hey-yoo/heyoo-template.git"
@@ -11,5 +22,24 @@
   "bugs": {
     "url": "https://github.com/hey-yoo/heyoo-template/issues"
   },
-  "homepage": "https://github.com/hey-yoo/heyoo-template#readme"
+  "homepage": "https://github.com/hey-yoo/heyoo-template/tree/plugins-ts-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@types/node": "^16.6.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-flowtype": "^5.9.0",
+    "eslint-plugin-import": "^2.24.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "rollup": "^2.56.2",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.5"
+  }
 }
