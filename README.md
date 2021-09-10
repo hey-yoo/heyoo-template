@@ -54,7 +54,7 @@ build package code:
 watch directory ./src, when update will rebuild:
 
 ```shell
-<packageManager> run build
+<packageManager> run watch
 ```
 packageManager can be one of `pnpm`, `npm`, `yarn`.
 
@@ -64,6 +64,7 @@ packageManager can be one of `pnpm`, `npm`, `yarn`.
 
 ```json5
 {
+  "type": "module",
   "exports": {
     // you can know more on [Package entry points](https://nodejs.org/api/packages.html#packages_package_entry_points)
     "./foo": "./bin/foo.js",
