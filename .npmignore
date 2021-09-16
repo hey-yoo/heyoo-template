@@ -21,6 +21,7 @@ yarn-error.log*
 
 # source
 /src
+.babelrc
 .editorconfig
 .eslintrc
 .gitattributes
@@ -29,4 +30,5 @@ yarn-error.log*
 .lintstagedrc
 .prettierrc
 pnpm-lock.yaml
+rollup.config.js
 tsconfig.json
